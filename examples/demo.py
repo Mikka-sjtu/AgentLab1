@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from react_agent import (
+from src import (
     ReActAgent,
     read_file,
     run_terminal_command,
