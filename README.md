@@ -7,7 +7,6 @@
   - 写入文件
   - 运行终端命令
   - 调用 `solve_vm_scheduling_ilp` 进行调度求解
-- 既有 Jupyter Notebook 原型，也有拆分好的 Python 模块结构，适合当作学习和改造的模板。
 
 # 安装与环境准备
 
