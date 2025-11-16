@@ -1,15 +1,19 @@
 from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(ROOT))
 
 from src import (
     ReActAgent,
     read_file,
+    write_to_file,
     run_terminal_command,
     solve_vm_scheduling_ilp,
-    write_to_file,
 )
 
 def main() -> None:
-    project_dir = str(Path(__file__).resolve().parents[1])
+    project_dir = str(ROOT)
 
     tools = [read_file, write_to_file, run_terminal_command, solve_vm_scheduling_ilp]
     agent = ReActAgent(
