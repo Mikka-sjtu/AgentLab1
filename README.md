@@ -10,10 +10,10 @@
 
 # 安装与环境准备
 
-## 安装依赖
+### 安装依赖
 pip install -r requirements.txt
 
-## 配置 OpenRouter API Key
+### 配置 OpenRouter API Key
 在终端中设置环境变量：
 - Linux / macOS：
 export OPENROUTER_API_KEY="sk-你的-key"
